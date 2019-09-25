@@ -1,0 +1,70 @@
+
+
+
+CSS 삽입 방법
+
+
+
+1) 속성
+
+
+
+2) 태그
+
+
+
+3) link => XXX.css
+
+
+
+마우스 : hover
+
+          : active
+
+----------------------
+
+폼       : focus
+
+----------------------
+
+링크    : link     // 하이퍼 링크 누르기 전
+
+          : visited // 하이퍼 링크 누른 후
+
+          : first-line // 박스가 만들어졌을 때 첫번째 줄
+
+          : first-letter // 첫번째 글자
+
+
+
+          : nth-child(even/odd) // 테이블 같은 태그에서 홀수 짝수인 줄 바꾼다
+
+          : nth-child(1) // 첫번째 줄 바꿈
+
+---------------------
+
+div div 겹쳐 쓸 수 있음
+
+css -> 
+
+div div{
+
+display:inline; // 가로로 쓰기
+
+dispay:inline-block; //블럭으로 나눔
+
+}
+
+----------------------
+
+박스의 배치 : position
+
+position : static
+
+position : relative
+
+position : absolute
+
+position : fixed
+
+float      : left or right

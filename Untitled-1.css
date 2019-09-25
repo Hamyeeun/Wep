@@ -1,0 +1,50 @@
+p{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 15px;
+    border: 3px solid blue;
+    width: 100px;
+
+            }
+table{
+    text-align-last: center;
+}
+#title{
+    color: coral;
+    font-size: 20px;
+}
+.class{
+    color: brown;
+    font-size: 10px;
+}
+td.data{
+    color: red;
+    font-size: 30px;
+}
+#list{
+    color: violet;
+    background: beige;
+    font-size: 20px;
+    width: 100px;
+}
+li:hover{
+    background: pink;
+    width: 100px;
+}
+
+li:active{
+    background: red;
+    width: 100px;
+}
+
+li{
+    background: yellow;
+    width: 100px;
+}
+
+div div{
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    bottom:-20px;
+}
