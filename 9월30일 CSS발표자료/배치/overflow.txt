@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>overflow예제</title>
+        <meta charset="UTF-8">
+        <style>
+            p{
+                width: 15em;
+                height: 3em;
+                border: 1px solid lightgray;
+            }
+            .visible{
+                overflow: visible;
+            }
+            .hidden{
+                overflow: hidden;
+            }
+            .scroll{
+                overflow: scroll;
+            }
+            .auto{
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>overflow</h1>
+        <hr>
+        <p class="visible">
+            overflow에 visible 값을 적용하면 박스를 넘어가는 내용도 출력됩니다.
+            </p>
+        <p class="hidden">
+            overflow에 hidden 값을 적용하면 박스를 넘어가는 내용이 잘려서 보이지 않습니다.
+        </p>
+        <p class="scroll">
+            overflow에 scroll 값을 적용하면 박스에 스크롤바를 붙여 출력합니다.
+        </p>
+        <p class="auto">
+            overflow에 auto 값을 적용하면 박스의 높이보다 콘텐츠의 내용이 길 경우 스크롤바를 자동 생성합니다.
+        </p>
+    </body>
+</html>

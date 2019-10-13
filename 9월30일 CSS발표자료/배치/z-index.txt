@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>z-index¿¹Á¦</title>
+        <meta charset="UTF-8">
+        <style>
+            div{
+                position: absolute;
+            }
+            img{
+                position: absolute;
+            }
+            #A{
+                z-index : 1;
+                left : 10px;
+                top : 20px;
+            }
+            #Two{
+                z-index : 2;
+                left : 40px;
+                top : 30px;
+            }
+            #Three{
+                z-index : 3;
+                left : 80px;
+                top : 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>z-index</h1>
+        <hr>
+        <div>
+            <img id="A" src="E:\A.png" width="100" height="140">
+            <img id="Two" src="E:\2.png" width="100" height="140">
+            <img id="Three" src="E:\3.jpg" width="100" height="140">
+        </div>
+    </body>
+</html>
